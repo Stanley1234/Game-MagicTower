@@ -1,0 +1,352 @@
+// There are 21 floors in total
+// Each floor contains a 13x13 map
+// For each map element, use the format xy
+// where x is a alphabet and y is a number between 0-9
+// a,b represents tile 
+// c,d,e,f,g represents item(50 possibilities)
+// h represents door(9 possibilities)
+// i,j,k,l,m,n,o,p,q represents monster(90 possibilities)
+// r,s represents npc(20 possibilities)
+// t,u represents shop
+// # indicates the end of the file
+
+// Floor 0
+a1 a3 a3 a3 a3 a3 a6 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a1 a3 a3 a3 a3 a0 a3 a3 a3 a3 a1 a1
+a1 a1 a1 a3 a3 a3 a0 a3 a3 a3 a1 a1 a1
+a1 a1 a1 a1 a1 a1 h0 a1 a1 a1 a1 a1 a1
+a4 a4 a1 a4 a1 r1 a0 a0 a1 a4 a1 a4 a4
+a4 a4 a4 a4 a4 a4 a0 a4 a4 a4 a4 a4 a4
+a4 a4 a4 a4 a4 a4 a0 a4 a4 a4 a4 a4 a4
+
+
+// Floor 1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a6 a0 i0 i1 i0 a0 a0 a0 a0 a0 a0 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a0 a1
+a1 d0 a0 j2 h0 a0 a1 c7 c0 a0 a1 a0 a1
+a1 c0 j2 a0 a1 a0 a1 c6 d0 a0 a1 a0 a1
+a1 a1 h0 a1 a1 a0 a1 a1 a1 h0 a1 a0 a1
+a1 d0 a0 a0 a1 a0 h0 i4 i8 i4 a1 a0 a1
+a1 a0 j3 a0 a1 a0 a1 a1 a1 a1 a1 a0 a1
+a1 a1 h0 a1 a1 a0 a0 a0 a0 a0 a0 a0 a1
+a1 a0 a0 a0 a1 a1 h2 a1 a1 a1 h0 a1 a1
+a1 d0 d1 c0 a1 c2 a0 a0 a1 c1 j6 c0 a1
+a1 d0 c9 c0 a1 a0 a0 a0 a1 j6 c0 j6 a1
+a1 a1 a1 a1 a1 a1 a7 a1 a1 a1 a1 a1 a1
+
+// Floor 2
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a7 a1 a0 k6 a0 a1 c7 c6 c0 c2 a1 a1
+a1 a0 a1 c6 a1 d1 a1 c7 c6 c0 c1 a1 a1
+a1 a0 a1 c0 a1 c0 a1 c7 c6 c0 k5 a1 a1
+a1 a0 a1 c0 a1 c0 a1 a1 a1 a1 h0 a1 a1
+a1 a0 a1 a0 a1 a0 a0 a0 h0 a0 a0 a1 a1
+a1 a0 a1 h0 a1 a1 h0 a1 a1 h0 a1 a1 a1
+a1 a0 h3 a0 a0 a0 a0 a1 a0 k5 a0 a1 a1
+a1 a0 a1 h0 a1 a1 h1 a1 h3 a1 h3 a1 a1
+a1 a0 a1 c0 a1 d1 d0 a1 a0 a1 a0 a1 a1
+a1 a0 a1 c0 a1 d1 d0 a1 a0 a1 a0 a1 a1
+a1 a6 a1 c7 a1 d1 d0 a1 r0 a1 r4 a1 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 3
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 c4 i1 c0 a1 t0 t0 t0 a1 a1 a1 a1 a1
+a1 i1 c0 a0 a1 a0 a0 a0 a1 a0 i4 a0 a1
+a1 c0 j2 a0 a1 a1 h0 a1 a1 a0 a1 a0 a1
+a1 a1 h0 a1 a1 a0 j2 a0 a1 c0 a1 i1 a1
+a1 a0 a0 a0 a1 a1 a1 a0 a1 c0 a1 i4 a1
+a1 i0 a1 a0 i4 i1 i4 a0 a1 c0 a1 i1 a1
+a1 i0 a1 a1 a1 a1 a1 a0 a0 a0 a1 a0 a1
+a1 a0 a0 a0 a0 a0 a1 a1 h0 a1 a1 a0 a1
+a1 a1 a1 a1 a1 i4 a1 i1 a0 i1 a1 a0 a1
+a1 a1 a0 a0 a0 a0 a1 c6 i4 c0 a1 a0 a1
+a1 a7 a0 a1 a1 a1 a1 c7 d1 c0 a1 a6 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 4
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a0 i2 a0 a1 a0 r2 a0 a1 a0 i2 a0 a1
+a1 h0 a1 h0 a1 a0 a0 a0 a1 h0 a1 h0 a1
+a1 a0 a1 a0 a1 a1 h3 a1 a1 a0 a1 a0 a1
+a1 a0 a1 j2 a1 i5 i6 i5 a1 j2 a1 a0 a1
+a1 i4 a1 d0 a1 c6 i5 c6 a1 d0 a1 i4 a1
+a1 i4 a1 d0 a1 a1 h2 a1 a1 d0 a1 i4 a1
+a1 i1 a1 a0 a1 j6 k0 j6 a1 a0 a1 i1 a1
+a1 a0 a1 a0 a1 c7 j6 c7 a1 a0 a1 a0 a1
+a1 a0 a1 a0 a1 a1 h1 a1 a1 a0 a1 a0 a1
+a1 a0 a1 a0 a1 c0 a0 c0 a1 a0 a1 a0 a1
+a1 a6 a1 a0 i2 a0 a0 a0 i2 a0 a1 a7 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 5
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 c3 a1 d0 a1 d1 i8 a0 a0 i8 c0 c1 a1
+a1 a0 a1 c7 a1 i8 a0 a0 a0 a0 i8 c0 a1
+a1 i5 a1 a0 a1 j3 a0 a1 a1 h0 a1 a1 a1
+a1 a0 h0 i8 a1 c5 j3 a1 a0 j6 j3 t4 a1
+a1 i5 a1 a0 a1 a1 a1 a1 a0 a0 a0 j3 a1
+a1 c7 a1 a0 a0 a0 i4 j2 a0 a0 a0 a0 a1
+a1 c6 a1 a1 i2 a1 a1 a1 a1 a0 a0 a0 a1
+a1 a0 t5 a1 i2 a1 a0 a0 a0 j6 k0 a0 a1
+a1 a1 a1 a1 i4 a1 h0 a1 h1 a1 h0 a1 a1
+a1 a0 a0 a1 a0 a1 i4 a1 c6 h0 a0 h0 a1
+a1 a7 a0 i4 a0 a0 a0 a1 c0 a1 a6 a1 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 6
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 d9 j4 a1 c6 a1 c0 i3 c8 a1 d1 d1 a1
+a1 j4 c0 a1 c7 a1 a0 c0 i3 a1 j8 d1 a1
+a1 c0 i6 h1 a0 h1 i6 a0 c0 a1 a0 j8 a1
+a1 a0 a0 a1 j6 a1 a0 a0 a0 a1 j1 a0 a1
+a1 a1 a1 a1 h2 a1 a1 a1 a1 a1 h0 a1 a1
+a1 a0 a0 i9 a0 c0 c0 c0 a0 i9 a0 a0 a1
+a1 a0 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a0 a1 i5 h0 i5 a0 a0 a0 a0 a0 a1 a1
+a1 a0 a1 h0 a1 h0 a1 a1 a1 a1 h1 a1 a1
+a1 a0 a1 i5 a1 a0 a0 a1 a1 a0 a0 a1 a1
+a1 a0 a0 a0 a1 a6 a0 h0 h0 a0 a7 a1 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 7
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a6 a0 a0 a0 a0 a0 a0 a0 a1 a1 a1 a1
+a1 a1 a1 a0 i6 a1 h1 a1 j4 a0 a1 a1 a1
+a1 a1 a0 i6 c6 a1 k9 a1 c7 j4 a0 a1 a1
+a1 a0 a0 a1 a1 a1 h3 a1 a1 a1 a0 a0 a1
+a1 a0 a0 h1 k9 h3 d8 h3 k9 h1 a0 a0 a1
+a1 a0 a1 a1 a1 a1 h3 a1 a1 a1 a1 a0 a1
+a1 a0 a1 d1 c6 a1 k9 a1 c7 d1 a1 a0 a1
+a1 a0 a1 c0 d1 a1 h1 a1 d1 c0 a1 a0 a1
+a1 a0 a1 a1 c1 c1 d0 c1 c1 a1 a1 a0 a1
+a1 a0 a0 a1 a1 a1 h2 a1 a1 a1 a0 a0 a1
+a1 a1 a0 a0 h0 a7 a0 a0 h0 a0 a0 a1 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 8
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a7 a1 a0 a0 a0 a0 a1 a0 c0 j4 a0 a1
+a1 a0 a1 a0 a1 a1 h0 a1 h0 a1 a1 a0 a1
+a1 a0 a1 a0 a1 a0 a0 h1 a0 a0 a1 c7 a1
+a1 a0 a1 a0 a1 j0 a1 a1 a1 i5 a1 i2 a1
+a1 i5 a1 a0 a1 d0 a1 a6 a0 a0 a1 i2 a1
+a1 i6 a1 c6 a1 d0 a1 a1 a1 a1 a1 a0 a1
+a1 i5 a1 i2 a1 a0 a0 a0 a1 a0 i6 a0 a1
+a1 a0 a1 i2 a1 a1 a1 k0 a1 h0 a1 a1 a1
+a1 a0 a1 a0 j4 a0 a1 j4 a1 a0 a0 a0 a1
+a1 a0 a1 a1 a1 h0 a1 a0 a1 a1 a1 a0 a1
+a1 a0 a0 j0 a0 a0 a1 a0 i3 k9 i3 a0 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 9
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 d7 c0 a0 a1 a1 a1 a0 a0 a0 a1 a0 a1
+a1 c0 a0 j7 h0 a0 a0 a0 a1 a0 h0 j4 a1
+a1 a1 h0 a1 a1 a0 a1 a1 a1 a0 a1 c0 a1
+a1 a0 a0 a0 a1 a0 a1 a0 a0 a0 a1 c0 a1
+a1 a0 a0 a0 h2 a0 a1 a7 a1 a0 a1 d0 a1
+a1 a1 h1 a1 a1 a0 a1 a1 a1 a0 a1 a1 a1
+a1 c6 j1 c7 a1 j0 a1 a6 a1 a0 a1 d0 a1
+a1 a1 h0 a1 a1 a0 a0 a0 h0 a0 a1 c0 a1
+a1 j4 d0 j4 a1 a1 h1 a1 a1 a0 a1 c0 a1
+a1 c1 j4 d0 a1 j8 j0 j8 a1 a0 h0 j4 a1
+a1 d2 c1 j4 h0 d1 j8 d1 a1 a0 a1 a0 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 10
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a0 a1 a1 c6 j7 a1 j7 c7 a1 a1 a0 a1
+a1 a0 a0 a1 a1 h0 a1 h0 a1 a1 a0 j1 a1
+a1 a0 a0 a0 a0 a0 a1 a0 a0 a0 j1 d1 a1
+a1 a0 a1 a0 a1 a1 a1 a1 a1 a0 a1 a1 a1
+a1 i5 a1 a0 a0 c0 c0 c0 a0 a0 a1 c0 a1
+a1 i6 a1 a0 a1 a1 a1 a1 h0 a1 a1 c0 a1
+a1 i5 a1 a0 h3 a0 a7 a1 a0 h0 i6 a0 a1
+a1 a0 a1 a1 a1 a1 a1 a1 h0 a1 a1 a0 a1
+a1 a0 a1 d0 c6 c7 a1 a0 i6 a0 a1 c0 a1
+a1 a0 a1 d0 c6 c7 h2 j0 a1 j0 a1 c0 a1
+a1 a6 a1 d0 c6 c7 a1 c1 a1 c1 a1 d0 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 11
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 d0 a1 c0 a1 c1 a1 c2 a1 d1 d4 d1 a1
+a1 d0 a1 c0 a1 c1 a1 c2 a1 k1 k2 k1 a1
+a1 d0 a1 c0 a1 c1 a1 c2 a1 a0 k1 a0 a1
+a1 h0 a1 h0 a1 h0 a1 h0 a1 a1 h1 a1 a1
+a1 a0 a0 a0 a0 a0 a1 a0 a0 a0 a0 a0 a1
+a1 h0 a1 a1 h1 a1 a1 a1 h1 a1 a1 h0 a1
+a1 c6 a1 a0 k1 d1 k3 d1 k1 a0 a1 c7 a1
+a1 c6 a1 j7 a1 a1 a1 a1 a1 j7 a1 c7 a1
+a1 c6 a1 j7 a1 t1 t1 t1 a1 j7 a1 c7 a1
+a1 a1 a1 h2 a1 d0 a0 d0 a1 h2 a1 a1 a1
+a1 a7 a0 a0 a0 a0 a0 a0 a0 a0 a0 a6 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 12
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 t3 c6 a1 a0 k5 k6 k5 a0 a1 d1 d6 a1
+a1 c7 a0 a1 a0 a1 h0 a1 a0 a1 a0 d1 a1
+a1 a0 a0 a1 a0 a1 k6 a1 a0 a1 a0 a0 a1
+a1 a0 k3 a1 a0 a1 c0 a1 a0 a1 k7 a0 a1
+a1 k3 k4 a1 a0 a1 c0 a1 a0 a1 l0 k7 a1
+a1 a1 h1 a1 a0 a1 d0 a1 a0 a1 h1 a1 a1
+a1 a0 a0 a0 a0 a1 d0 a1 a0 a0 a0 a0 a1
+a1 a1 a1 a1 a0 a1 a1 a1 a0 a1 a1 a1 a1
+a1 c6 k3 h0 k1 k1 k2 k1 k1 h0 k3 c7 a1
+a1 a1 a1 a1 a1 a1 h1 a1 a1 a1 a1 a1 a1
+a1 a6 a0 a0 a0 a0 a0 a0 a0 a0 a0 a7 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 13
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a0 k3 a0 a0 a0 a0 a0 a1 a0 k4 a0 a1
+a1 a0 a1 a1 a1 a1 a1 h0 a1 a0 a1 a0 a1
+a1 a0 a1 a0 a0 k1 a0 a0 a1 a0 a1 a0 a1
+a1 d1 a1 h2 a1 a1 a1 a0 a1 a0 a1 a0 a1
+a1 k5 a1 a0 a0 k4 a1 k1 a1 c7 a1 a0 a1
+a1 k6 a1 a0 j5 h3 a1 k2 a1 c7 a1 a0 a1
+a1 k5 a1 k4 h3 t6 a1 k1 a1 c7 a1 c6 a1
+a1 a0 a1 a1 a1 a1 a1 a0 a1 a0 a1 c6 a1
+a1 a0 k5 a0 a1 a0 a0 a0 k4 a0 a1 c6 a1
+a1 a1 a1 a0 a1 d1 a1 a1 a1 a1 a1 a0 a1
+a1 a7 a0 a0 h1 a0 a6 a1 e2 j5 h0 a0 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 14
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a0 a0 k7 c3 a6 a0 a0 a0 a0 a0 a0 a1
+a1 a0 a0 d1 a1 a1 a1 a1 a1 d1 a0 a0 a1
+a1 a0 a0 a1 a1 a1 a1 a1 a1 a1 a0 a0 a1
+a1 a0 a0 a1 a1 a1 e0 a1 a1 a1 a0 a0 a1
+a1 a0 a0 a1 a1 a1 h3 a1 a1 a1 a0 a0 a1
+a1 a0 a0 d0 a1 a1 k4 a1 a1 d0 a0 a0 a1
+a1 a0 a0 a3 a3 a1 j5 a1 a3 a3 a0 a0 a1
+a1 a0 a0 a3 a3 a1 k4 a1 a3 a3 a0 a0 a1
+a1 a0 a0 a3 a3 a1 h1 a1 a3 a3 a0 a0 a1
+a1 l2 k1 k2 k1 h1 a0 h1 k1 k2 k1 l2 a1
+a1 a3 a3 a3 a3 a3 a7 a3 a3 a3 a3 a3 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 15
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a0 a0 a0 a0 a7 a3 a6 a0 a0 a0 a0 a1
+a1 a0 a3 a3 a3 a3 a3 a3 a3 a3 a3 a0 a1
+a1 a0 a3 a3 a1 a1 a1 a1 a1 a3 a3 a0 a1
+a1 a0 a3 a1 a1 r0 a1 r4 a1 a1 a3 a0 a1
+a1 a0 a3 a1 a1 c6 a1 c6 a1 a1 a3 a0 a1
+a1 a0 a3 a1 a1 c7 a1 c7 a1 a1 a3 a0 a1
+a1 a0 a3 a3 a1 a0 a1 a0 a1 a3 a3 a0 a1
+a1 a0 a3 a3 a1 h0 a1 h0 a1 a3 a3 a0 a1
+a1 a0 a3 a3 a3 a0 a0 a0 a3 a3 a3 a0 a1
+a1 a0 a3 a3 a3 a3 h2 a3 a3 a3 a3 a0 a1
+a1 a0 a0 a0 a0 a0 a0 a0 a0 a0 a0 a0 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+
+// Floor 16
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a3 a3 a3 a3 a3 a7 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a1 h2 a1 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a1 t2 k8 a1 a1 a3 a3 a3 a1
+a1 a3 a3 a3 a1 a1 a0 a1 a1 a3 a3 a3 a1
+a1 a3 a3 a3 a1 a1 a0 a1 a1 a3 a3 a3 a1
+a1 a3 a3 a3 a1 a1 a6 a1 a1 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a1 a1 a1 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 17
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a3 k7 j5 a0 a0 a0 a0 a0 a0 a0 k7 a1
+a1 a3 j5 a3 a3 a3 a3 a3 a3 a3 a3 a0 a1
+a1 a3 a0 a3 k7 a0 a0 a0 a0 a0 a0 k7 a1
+a1 a3 a0 a3 a0 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a3 a0 a3 a0 a3 k7 a0 a0 a0 k7 a3 a1
+a1 a3 a0 a3 k7 a0 a0 a3 a3 a3 a0 a3 a1
+a1 a3 a0 a3 a3 a3 a3 a3 k7 a0 k7 a0 a1
+a1 a3 j5 a3 a3 a3 a7 a3 a0 a3 a3 a3 a1
+a1 a3 k7 j5 a0 j9 a0 a3 k7 a0 a0 k7 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a0 a1
+a1 a6 a0 j9 a0 a0 a0 a0 a0 a0 a0 k7 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+
+// Floor 18
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a1 a1 a1 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a1 a1 r3 a1 a1 a3 a3 a3 a1
+a1 a3 a3 a3 a1 a1 h3 a1 a1 a3 a3 a3 a1
+a1 a3 a3 a3 a1 a1 h2 a1 a1 a3 a3 a3 a1
+a1 a3 a3 a3 a1 a1 h2 a1 a1 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a0 a3 a3 a3 a3 a3 a1
+a1 a7 a0 a0 a0 a0 a0 a0 a0 a0 a0 a6 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 19
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a0 a0 a0 a0 a0 a0 a0 a0 a0 a0 a0 a1
+a1 a0 a3 a0 a3 a3 a3 a3 a3 a0 a3 a0 a1
+a1 a0 a3 a0 a3 a3 a3 a3 a3 a0 a3 a0 a1
+a1 a0 a3 a0 a3 a3 a6 a3 a3 a0 a3 a0 a1
+a1 a0 a3 a0 a3 a3 a0 a3 a3 a0 a3 a0 a1
+a1 a0 a3 l8 a3 a3 a0 a3 a3 l8 a3 a0 a1
+a1 a0 a3 h3 a3 a3 l9 a3 a3 h3 a3 a0 a1
+a1 a0 a3 d3 a3 a3 a0 a3 a3 d5 a3 a0 a1
+a1 a0 a3 a3 a3 a3 a0 a3 a3 a3 a3 a0 a1
+a1 a0 a3 a3 a3 a3 a0 a3 a3 a3 a3 a0 a1
+a1 a0 a0 a0 a0 a0 a0 a0 a0 a0 a0 a7 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+
+// Floor 20
+// phantom_bat = l3
+// ske_fightter = j5
+// green_knight = l7
+// black-stonman = l4
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 l3 c7 l7 d0 j5 c2 j5 d0 l7 c7 l3 a1
+a1 d1 a3 c0 a3 c1 a3 c1 a3 c0 a3 d1 a1
+a1 a3 c6 l7 a0 l4 a0 l4 a0 l7 c6 a3 a1
+a1 d0 a3 c0 a3 a0 a7 a0 a3 c0 a3 d0 a1
+a1 j5 c1 l4 a0 a0 a0 a0 a0 l4 c1 j5 a1
+a1 c2 a3 a0 a3 a0 a3 a0 a3 a0 a3 c2 a1
+a1 j5 c1 l4 a0 a0 a0 a0 a0 l4 c1 j5 a1
+a1 d0 a3 c0 a3 a0 a6 a0 a3 c0 a3 d0 a1
+a1 a3 c6 l7 a0 l4 a0 l4 a0 l7 c6 a3 a1
+a1 d1 a3 c0 a3 c1 a3 c1 a3 c0 a3 d1 a1
+a1 l3 c7 l7 d0 j5 c2 j5 d0 l7 c7 l3 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+// Floor 21
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a0 a0 a3 i7 a3 a0 a0 a3 a3 a1
+a1 a3 a0 a0 a3 a3 l0 a3 a3 a0 a0 a3 a1
+a1 a3 a0 a0 a0 a0 l0 a0 a0 a0 a0 a3 a1
+a1 a3 a3 a0 a0 a0 a0 a0 a0 a0 a3 a3 a1
+a1 a3 a3 a0 a0 a0 a0 a0 a0 a0 a3 a3 a1
+a1 a3 a3 a3 a0 a0 a3 a0 a0 a3 a3 a3 a1
+a1 a3 a3 a3 a3 h3 a7 h3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a3 a1
+a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1
+
+
+#

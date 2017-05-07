@@ -1,0 +1,49 @@
+//shop info should be carefully written
+//because the program will analyze the sentence so that
+//it can know 
+
+// lower-price coins shop
+// size=3
+mapcode=t0
+prefix=left_bshop,face_bshop,right_bshop
+product=25 coins for 800 HP,25 coins for 4 attack,25 coins for 4 defend,Quit Shop
+animepart=1
+
+// high-price coins shop
+mapcode=t1
+prefix=left_bshop,face_bshop,right_bshop
+product=100 coins for 2000 HP,100 coins for 15 attack,100 coins for 15 defend,Quit Shop
+animepart=1
+
+// red key shop
+mapcode=t2
+prefix=redman
+product=100 coins for 1 redkey,Quit Shop
+animepart=0
+
+// blue key shop
+mapcode=t3
+prefix=redman
+product=50 coins for 1 bluekey,Quit Shop
+animepart=0
+
+// yellow key shop
+mapcode=t4
+prefix=redman
+product=20 coins for 1 yellowkey,Quit Shop
+animepart=0
+
+// elementary level shop
+mapcode=t5
+prefix=blueman
+product=100 exp for 1 level,30 exp for 5 attack,30 exp for 5 defend,30 exp for 800 hp,Quit Shop
+animepart=0
+
+// advanced level shop
+mapcode=t6
+prefix=blueman
+product=270 exp for 3 level,100 exp for 20 attack,100 exp for 20 defend,100 exp for 3000 hp,Quit Shop
+animepart=0
+
+
+#

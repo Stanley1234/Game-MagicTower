@@ -1,0 +1,16 @@
+// clips
+select_bgm select_bgm.au
+play_bgm_1 play_bgm_1.au
+play_bgm_2 play_bgm_2.au
+go_up_and_down go_up_and_down.au
+confirm confirm.au
+open_door open_door.au
+fight fight.au
+shift_selected_item shift_selected_item.au
+quit quit.au
+cannot_fight cannot_fight.au
+18_stair 18_stair.au
+obtain_item obtain_item.au
+no_money no_money.au
+move move.au
+*

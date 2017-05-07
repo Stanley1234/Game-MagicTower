@@ -1,0 +1,51 @@
+
+
+// floor 2
+mapcode=r0
+prefix=blueman
+neutr=I will give you a Sparatys Sword
+neg=null
+pos=null
+
+mapcode=r1
+prefix=nymph
+neutr=You need to save the world
+neg=null
+pos=Fight
+
+// floor 4
+mapcode=r2
+prefix=boy
+neutr=Thank you for rescuing me,I can help you go to vault at floor 2,Have you found hammer? 
+neg=If you don't have hammer I cannot help you
+pos=Go and fight demons braver
+
+// floor 18
+mapcode=r3
+prefix=princess
+neutr=Oh braver!,I was stuck here for three months,I heard that there is a cross in this tower and I can use the cross to enable the stair
+neg=Hey braver have you found the cross
+pos=If you win I will marry you
+
+// floor 2
+mapcode=r4
+prefix=redman
+neutr=I will give Tecsychzine Shield
+neg=null
+pos=null
+
+// floor 15
+mapcode=r5
+prefix=redman
+neutr=I will give Tecsychzine Super Shield
+neg=null
+pos=null
+
+// floor 15
+mapcode=r6
+prefix=blueman
+neutr=I will give you a Sparatys Super Sword
+neg=null
+pos=null
+
+#

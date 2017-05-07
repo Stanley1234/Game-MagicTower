@@ -1,0 +1,5 @@
+// describe specifically which tile is disabled
+// 1 10 3
+18 11 11
+21 6 8
+#

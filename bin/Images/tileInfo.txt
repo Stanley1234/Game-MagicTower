@@ -1,0 +1,44 @@
+// # indicates the end of the file
+// no blank lines are allowed before finishing describing 
+// one tile
+
+mapcode=a0
+prefix=road
+type=0
+obstacle=false
+
+mapcode=a1
+prefix=wall
+type=1
+obstacle=true
+
+mapcode=a2
+prefix=ice_wall
+type=2
+obstacle=true
+
+mapcode=a3
+prefix=star
+type=3
+obstacle=true
+
+mapcode=a4
+prefix=plasma
+type=4
+obstacle=true
+
+mapcode=a5
+prefix=sea
+type=5
+obstacle=true
+
+mapcode=a6
+prefix=upstair
+type=19
+obstacle=false
+
+mapcode=a7
+prefix=downstair
+type=20
+obstacle=false
+#

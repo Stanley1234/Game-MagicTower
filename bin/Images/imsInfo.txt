@@ -1,0 +1,348 @@
+//the name of ignore icon is null
+//the program will not read the number after prefix
+//it is only used for comments
+//but we still need tomake sure the anime sequence is //right(the number should be in increasing order)
+//blank lines can exist anywhere except between 
+//fnm,row,and col
+
+// braver
+fnm=hero.png
+row=4
+col=4
+prefix=braver_down 0
+prefix=braver_down 1
+prefix=null
+prefix=null
+prefix=braver_left 0
+prefix=braver_left 1
+prefix=null
+prefix=null
+prefix=braver_right 0
+prefix=braver_right 1
+prefix=null
+prefix=null
+prefix=braver_up 0
+prefix=braver_up 1
+prefix=null
+prefix=null
+
+
+// item
+fnm=icon.png
+row=7
+col=4
+prefix=yellow_key
+prefix=blue_key
+prefix=red_key
+prefix=keybox
+prefix=spear_1
+prefix=shield_1
+prefix=blue_gem
+prefix=red_gem
+prefix=coinsbox
+prefix=monster_detector
+prefix=red_blood
+prefix=blue_blood
+prefix=spear_2
+prefix=null
+prefix=null
+prefix=spear_3
+prefix=shield_2
+prefix=null
+prefix=null
+prefix=shield_3
+prefix=hammer
+prefix=teleporter
+prefix=null
+prefix=cross
+prefix=level_incr
+prefix=holy_water
+prefix=heart
+prefix=null
+
+// tile,shop, dialogue
+fnm=map.png
+row=8
+col=4
+prefix=road
+prefix=wall
+prefix=ice_wall
+prefix=dialogue_frame
+prefix=star
+prefix=plasma
+prefix=null
+prefix=sea
+prefix=yellow_door 0
+prefix=blue_door 0
+prefix=red_door 0
+prefix=green_door 0
+prefix=yellow_door 1
+prefix=blue_door 1
+prefix=red_door 1
+prefix=green_door 1
+prefix=yellow_door 2
+prefix=blue_door 2
+prefix=red_door 2
+prefix=green_door 2
+prefix=yellow_door 3
+prefix=blue_door 3
+prefix=red_door 3
+prefix=green_door 3
+prefix=downstair
+prefix=upstair
+prefix=null
+prefix=null
+prefix=left_bshop
+prefix=null
+prefix=right_bshop
+prefix=null
+
+//monster
+fnm=monster.png
+row=40
+col=4
+prefix=green_slime 0
+prefix=green_slime 1
+prefix=green_slime 2
+prefix=green_slime 3
+
+prefix=red_slime 0
+prefix=red_slime 1
+prefix=red_slime 2
+prefix=red_slime 3
+
+prefix=black_slime 0
+prefix=black_slime 1
+prefix=black_slime 2
+prefix=black_slime 3
+
+prefix=slime_king 0
+prefix=slime_king 1
+prefix=slime_king 2
+prefix=slime_king 3
+
+prefix=small_bat 0
+prefix=small_bat 1
+prefix=small_bat 2
+prefix=small_bat 3
+
+prefix=blue_bat 0
+prefix=blue_bat 1
+prefix=blue_bat 2
+prefix=blue_bat 3
+
+prefix=red_bat 0
+prefix=red_bat 1
+prefix=red_bat 2
+prefix=red_bat 3
+
+prefix=demon_king 0
+prefix=demon_king 1
+prefix=demon_king 2
+prefix=demon_king 3
+
+prefix=blue_master 0
+prefix=blue_master 1
+prefix=blue_master 2
+prefix=blue_master 3
+
+prefix=red_master 0
+prefix=red_master 1
+prefix=red_master 2
+prefix=red_master 3
+
+prefix=gray_witcher 0
+prefix=gray_witcher 1
+prefix=gray_witcher 2
+prefix=gray_witcher 3
+
+prefix=red_witcher 0
+prefix=red_witcher 1
+prefix=red_witcher 2
+prefix=red_witcher 3
+
+prefix=ske_man 0
+prefix=ske_man 1
+prefix=ske_man 2
+prefix=ske_man 3
+
+prefix=ske_guard 0
+prefix=ske_guard 1
+prefix=ske_guard 2
+prefix=ske_guard 3
+
+prefix=ske_yellow 0
+prefix=ske_yellow 1
+prefix=ske_yellow 2
+prefix=ske_yellow 3
+
+prefix=ske_fighter 0
+prefix=ske_fighter 1
+prefix=ske_fighter 2
+prefix=ske_fighter 3
+
+prefix=orc 0
+prefix=orc 1
+prefix=orc 2
+prefix=orc 3
+
+prefix=orc_guard 0
+prefix=orc_guard 1
+prefix=orc_guard 2
+prefix=orc_guard 3
+
+prefix=stoneman 0
+prefix=stoneman 1
+prefix=stoneman 2
+prefix=stoneman 3
+
+prefix=phantom 0
+prefix=phantom 1
+prefix=phantom 2
+prefix=phantom 3
+
+prefix=yellow_pigman 0
+prefix=yellow_pigman 1
+prefix=yellow_pigman 2
+prefix=yellow_pigman 3
+
+prefix=blue_pigman 0
+prefix=blue_pigman 1
+prefix=blue_pigman 2
+prefix=blue_pigman 3
+
+prefix=red_pigman 0
+prefix=red_pigman 1
+prefix=red_pigman 2
+prefix=red_pigman 3
+
+prefix=swordman 0
+prefix=swordman 1
+prefix=swordman 2
+prefix=swordman 3
+
+prefix=netherguard 0
+prefix=netherguard 1
+prefix=netherguard 2
+prefix=netherguard 3
+
+prefix=yellow_warrior 0
+prefix=yellow_warrior 1
+prefix=yellow_warrior 2
+prefix=yellow_warrior 3
+
+prefix=red_warrior 0
+prefix=red_warrior 1
+prefix=red_warrior 2
+prefix=red_warrior 3
+
+prefix=nether_warrior 0
+prefix=nether_warrior 1
+prefix=nether_warrior 2
+prefix=nether_warrior 3
+
+prefix=red_knight 0
+prefix=red_knight 1
+prefix=red_knight 2
+prefix=red_knight 3
+
+prefix=blue_knight 0
+prefix=blue_knight 1
+prefix=blue_knight 2
+prefix=blue_knight 3
+
+prefix=nether_master 0
+prefix=nether_master 1
+prefix=nether_master 2
+prefix=nether_master 3
+
+prefix=yellow_slime 0
+prefix=yellow_slime 1
+prefix=yellow_slime 2
+prefix=yellow_slime 3
+
+prefix=phantom_ske 0
+prefix=phantom_ske 1
+prefix=phantom_ske 2
+prefix=phantom_ske 3
+
+prefix=phantom_bat 0
+prefix=phantom_bat 1
+prefix=phantom_bat 2
+prefix=phantom_bat 3
+
+prefix=black_stoneman 0
+prefix=black_stoneman 1
+prefix=black_stoneman 2
+prefix=black_stoneman 3
+
+prefix=green_orc 0
+prefix=green_orc 1
+prefix=green_orc 2
+prefix=green_orc 3
+
+prefix=black_knight 0
+prefix=black_knight 1
+prefix=black_knight 2
+prefix=black_knight 3
+
+prefix=yellow_knight 0
+prefix=yellow_knight 1
+prefix=yellow_knight 2
+prefix=yellow_knight 3
+
+prefix=green_knight 0
+prefix=green_knight 1
+prefix=green_knight 2
+prefix=green_knight 3
+
+prefix=blue_warrior 0
+prefix=blue_warrior 1
+prefix=blue_warrior 2
+prefix=blue_warrior 3
+
+// npc
+fnm=npc.png
+row=8
+col=4
+prefix=blueman 0
+prefix=blueman 1
+prefix=blueman 2
+prefix=blueman 3
+
+prefix=redman 0
+prefix=redman 1
+prefix=redman 2
+prefix=redman 3
+
+prefix=boy 0
+prefix=boy 1
+prefix=boy 2
+prefix=boy 3
+
+prefix=nymph 0
+prefix=nymph 1
+prefix=nymph 2
+prefix=nymph 3
+
+// temporary for boom graph
+prefix=boom 0
+prefix=boom 1
+prefix=boom 2
+prefix=boom 3
+
+prefix=null
+prefix=null
+prefix=null
+prefix=null
+
+prefix=face_bshop 0
+prefix=face_bshop 1
+prefix=face_bshop 2
+prefix=face_bshop 3
+
+prefix=princess 0
+prefix=princess 1
+prefix=princess 2
+prefix=princess 3
+

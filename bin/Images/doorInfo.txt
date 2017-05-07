@@ -1,0 +1,23 @@
+// # indicates the end of the file
+
+mapcode=h0
+prefix=yellow_door
+type=0
+isOpenByKey=true
+
+mapcode=h1
+prefix=blue_door
+tyoe=1
+isOpenByKey=true
+
+mapcode=h2
+prefix=red_door
+type=2
+isOpenByKey=true
+
+mapcode=h3
+prefix=green_door
+type=3
+isOpenByKey=false
+
+#
