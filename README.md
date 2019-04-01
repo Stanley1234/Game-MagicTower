@@ -6,8 +6,6 @@ The goal of player is to eliminate devils and fight with the king of devils on t
 
 The game contains a 21 floors with lots of characters. Even though you are smart enough, it will also take a few hours to defeat all the monsters. 
 
----
-
 ## Demo
 
 **The Initial Screen**
@@ -26,7 +24,7 @@ The game contains a 21 floors with lots of characters. Even though you are smart
 
 There are a total of 21 floors with more than 50 types of monsters.
 
----
+
 ## Issues
 
 One of the legacy issue is that all resources are not in the an asset
