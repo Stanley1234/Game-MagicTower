@@ -27,7 +27,7 @@ The game contains a 21 floors with lots of characters. Even though you are smart
 There are a total of 21 floors with more than 50 types of monsters.
 
 ---
-**Issues**
+## Issues
 
 One of the legacy issue is that all resources are not in the an asset
 directory but are maintained under the bin directory. Thus it is dangerous
